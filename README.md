@@ -14,7 +14,7 @@
 - Vite (またはCreate React App)
 
 ### バックエンド
-- PHP (または Spring Boot)
+- Spring Boot(Java)
 - MySQL / PostgreSQL
 
 ## プロジェクト構成
