@@ -1,0 +1,55 @@
+/* Markdownチェックリスト用CSS */
+.markdown-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.markdown-content li input[type="checkbox"] {
+  margin-right: 0.5rem;
+  transform: scale(1.2);
+}
+
+.markdown-content li {
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+/* 一般的なMarkdownスタイル */
+.markdown-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.markdown-content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.75rem 0;
+}
+
+.markdown-content p {
+  margin: 0.5rem 0;
+}
+
+.markdown-content strong {
+  font-weight: bold;
+}
+
+.markdown-content em {
+  font-style: italic;
+}
+
+.markdown-content del {
+  text-decoration: line-through;
+}
+
+/* チェック済みタスクのスタイル */
+.markdown-content li:has(input[type="checkbox"]:checked) {
+  color: #888;
+  opacity: 0.7;
+}
+
+.markdown-content input[type="checkbox"]:checked {
+  accent-color: #4CAF50;
+}
