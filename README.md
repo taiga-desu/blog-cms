@@ -21,7 +21,7 @@
 ```
 blog-cms/
 ├── frontend/     # フロントエンド（React + TypeScript）
-├── backend/      # バックエンド（PHP / Spring Boot）
+├── backend/      # バックエンド（Spring Boot）
 └── README.md
 ```
 
